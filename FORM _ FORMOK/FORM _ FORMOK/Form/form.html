@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    
+<div class="topnav">
+   
+    <img src="logo-utm.png" >
+   
+    <div class="topnav-right">
+    <a href="#Main" class="active">Main</a>
+    <a href="#Profile">Profile</a>
+    </div>
+  
+  </div>
+  <br>
+
+    <div class="card">
+        <h2 style="text-align: center;">UNIVERSITI TEKNOLOGI MALAYSIA STUDENTS' ACCOMODATION APPLICATION FORM</h2>
+        <br>
+        <p>Please use this form to reserve college accommodations on the UTM campus. For further information call admin office: <b>+60 11000223</b> or e-mail at <b>utm.residence@admin.utm.my</b>.</p>
+        <br>
+        <p>Sultan Ibrahim Chancellery Building, Jalan Iman, 81310 Skudai, Johor</p>
+        <br>
+        <p style="text-align: justify">UTM has on campus hostel blocks that provide accommodation for UTM students. Non-UTM students wishing to stay in UTM hostels during the conference duration are warmly welcome. The hostels blocks are grouped into units known as colleges, for simplifying administration. UTM has 11 colleges, which can accommodate 17,500 students. Among the facilities provided at each residential college are a cafeteria, a multipurpose hall, a Muslim prayer room, tennis courts, an internet and computer centre, a convenience store and a common room. The UTM hostel offer the cheapest room rate for the convenience of conference participants.</p>   
+    </div>
+    <br>
+    
+    <div class="card">
+        <h3 style="text-align: center;">Fill in the form below</h3>
+        <br>
+        <form action="../Form successful/Formok.html" method="post">
+
+            <table>
+                <tr>
+                    <td><label for="name" >First Name: </label></td>
+                    <td><input type="text" id="name" class="fillet" required></td>
+                    <td><label for="last-name" >Last Name: </label></td>
+                    <td><input type="text" id="last-name" class="fillet" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="student-ID" >Student ID: </label></td>
+                    <td><input type="text" id="student-ID" class="fillet" required></td>
+                    <td><label for="ic-number" >IC Number: </label></td>
+                    <td><input type="text" id="ic-number" class="fillet" required></td>
+                </tr>
+                <tr>
+                    <td><label for="college">Preferred College: </label></td>
+                    <td>
+                        <select name="college" id="college" class="fillet drop">
+                            <option selected>-SELECT COLLEGE-</option>
+                            <option value="klg">KLG Campus Residence</option>
+                            <option value="ktdi">Kolej Tun Dr. Ismail</option>
+                            <option value="ktho">Kolej Tun Hussein Onn</option>
+                            <option value="ktf">Kolej Tun Fatimah</option>
+                            <option value="ktr">Kolej Tun Razak</option>
+                            <option value="ktc">Kolej Tuanku Canselor</option>
+                            <option value="kp">Kolej Perdana</option>
+                            <option value="k9">Kolej 9</option>
+                            <option value="k10">Kolej 10</option>
+                            <option value="kdse">Kolej Datin Seri Endon</option>
+                            <option value="kdoj">Kolej Dato’ Onn Jaafar</option>
+            
+                        </select>
+                    </td>
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td>Gender: </td> 
+            
+                                <td>
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label><br>
+                                </td>
+                                
+                                <td>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label><br>
+                                </td>
+                            
+            
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="num" >Phone Number: </label></td>
+                    <td><input type="number" id="num" class="fillet" required></td>
+
+                    <td><label for="room-type">Room Type: </label></td>
+                    <td>
+                        <select name="room-type" id="room-type" class="fillet drop">
+                            <option selected>-SELECT ROOM TYPE-</option>
+                            <option value="single">Single Room</option>
+                            <option value="double">Double Room</option>
+                            <option value="triple">Triple Room</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="mail" >E-mail: </label></td>
+                    <td>
+                        <input type="email" id="mail" class="fillet" required>
+                        <br>
+                        <small id="email-note">*Required for confirmation</small>
+                    </td>
+                </tr>
+
+                
+
+            </table>
+
+            <div style="text-align: center; padding-top: 50px"><button>Submit</button></div>
+          
+
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+
+  font-family: sans-serif;
+  background-color: #E6E0FF;
+
+}
+
+.header {
+ 
+  padding: 15px 10px;
+  font-size: 40px;
+  font-family: sans-serif;
+  background-color: #BCB2E3;
+
+}
+.underheader{
+
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+a.one{
+
+  font-size: 40px;
+  text-decoration: none;
+
+}
+
+.title{
+display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  
+}
+
+.menu{
+
+  background-color: #CAC4E5;
+  margin: auto;
+  padding-top: 100px;
+  border: 20px solid #7D6FB4;
+  border-radius: 20px;
+  height: 700px;
+  width: 50%;
+  min-width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0px 7px 10px 1px darkslateblue;
+
+}
+
+.proflist{
+
+  background-color: #CAC4E5;
+  margin: auto;
+
+  border: 20px solid #7D6FB4;
+  border-radius: 20px;
+  height: 700px;
+  width: 50%;
+  min-width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0px 7px 10px 1px darkslateblue;
+
+}
+
+.button{
+
+  border: 2px solid black;
+  background-color: #E1DEEE;
+  height: 175px;
+  width: 350px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  font-size: 40px;
+
+}
+
+.button:hover{
+
+  background-color: #A291E5;
+  box-shadow: 0px 10px 10px 0px darkslateblue;
+
+}
+
+#profile {
+
+margin:auto;
+margin-top:20px;
+height:250px;
+width:400px;
+
+}
+
+
+table.prof { 
+
+  width:400px; 
+  height:250px;
+
+}
+ 
+table.prof tr,
+table.prof td { 
+
+background:white; 
+border:1px solid white;
+height:50px;
+font-size:20px;
+color:#34495e;
+text-align:center;
+
+}
+
+
+table.list {
+
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  
+}
+
+table.list caption {
+
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+
+}
+
+table.list tr {
+
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table.list th,
+table.list td {
+
+  padding: .625em;
+  text-align: center;
+
+}
+
+table.list th {
+
+  font-size: 1em;
+  letter-spacing: .1em;
+  
+}
+
+
+
+

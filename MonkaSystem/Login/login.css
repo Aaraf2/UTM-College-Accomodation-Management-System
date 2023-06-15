@@ -1,0 +1,93 @@
+/*Name: Muhammad Kasyfi bin Kamarul Hamidi                                        */
+/*Matric number: A20EC0093                               */
+/*Section: 05                                     */
+
+/*Write your CSS codes below                    */
+body {
+
+    background-image: url("background dorm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+
+}
+
+#login{
+    background-color: white;
+    border-style:solid;border-color:darkred;border-width: 3px;
+    height:500px; width:500px;
+    margin:auto;
+    padding:10px;
+}
+
+
+input[type=text]{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-style: solid; border-color: lightgrey; border-width: 1px;
+}
+
+input[type=password]{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-style: solid; border-color: lightgrey; border-width: 1px;
+}
+
+button{
+    border-style: none;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: palevioletred;
+    color: white;
+}
+
+button:active{
+    background-color: darkred;
+}
+
+body{
+    font-family: "Helvetica", sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.topnav {
+  position: relative;
+  background-color: darksalmon;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+}
+
+
+.topnav-right {
+
+  float: right;
+
+}
+
+img {
+
+    width: auto;
+    height: 40px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    
+}

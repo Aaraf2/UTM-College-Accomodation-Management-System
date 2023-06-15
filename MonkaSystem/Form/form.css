@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+
+    background-image: url("background dorm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+
+}
+
+.card {
+
+    background-color: rgb(242, 202, 151);
+    width: 50%;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    margin:auto;
+    border-radius: 5px;
+
+}
+
+
+table {
+
+    margin: auto;
+
+}
+
+td {
+
+    padding: 10px;
+
+}
+
+.fillet {
+
+    border-radius: 5px;
+    border: 1px solid lightcoral;
+    height: 30px;
+    width: 200px;
+
+}
+
+#email-note {
+
+    font-size: x-small;
+    color: red;
+
+}
+
+.drop {
+
+    height: 35px;
+    width: 205px;
+
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ 
+button {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 1.25rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 3.5rem / 100%;
+    position: relative;
+    min-width: 10rem;
+    max-width: 80vw;
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color :  lightcoral;
+    color:  black;
+    transition:0.5s;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover{
+
+    color: black;
+    background-color: lightgreen;
+
+}
+
+
+.topnav {
+
+  position: relative;
+  background-color: darksalmon;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+}
+
+.topnav a {
+
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: chocolate;
+  color: black;
+}
+
+.topnav a.active {
+
+  background-color: burlywood;
+  color: white;
+
+}
+
+.topnav-centered a {
+
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.topnav-right {
+
+  float: right;
+
+}
+
+img {
+
+    width: auto;
+    height: 40px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    
+}
+
